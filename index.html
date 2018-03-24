@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <title>Memro</title>
+</head>
+<body>
+    <section>
+        <h1>Memro</h1>
+        <p>-Memorise Words-</p>
+        <br>
+        <p id="theWord" onmousemove="reveal()" onmouseout="hide()">...</p>
+        <br>
+        <input type="text" placeholder="Enter Text To Memorise" id="input">
+        <p id="start" onclick="start()">start</p>
+        <p id="points">points: 0</p>
+    </section>
+</body>
+</html>
